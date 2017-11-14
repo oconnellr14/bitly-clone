@@ -1,0 +1,57 @@
+html, body{
+  margin: auto;
+  padding: none;
+}
+body{
+  background-image: url("https://c1.staticflickr.com/4/3399/3341425893_6582bfa9d9_b.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper{
+  height: 100vh;
+  width: 100vw;
+  padding: none;
+  margin: none;
+  font-family: 'Space Mono', monospace;
+  }
+
+#logo{
+  padding-top: 15px;
+  margin: none;
+  height: 150px;
+  width: 100vw;
+  font-family: 'Libre Barcode 39 Extended Text', cursive;
+  color: black;
+  font-size: 150px;
+  text-align: center;
+}
+
+.nav_bar ul{
+  padding-top: 0;
+  margin: 0;
+  border:0;
+  text-align: center;
+  margin-bottom: 20px;
+
+
+}
+
+.nav_bar li{
+  display: inline;
+
+}
+.nav_bar a {
+  padding: 0px 20px;
+  text-decoration: underline overline;
+  font-size: 1.25em;
+  color: black;
+}
+
+.table{
+  text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+}
+

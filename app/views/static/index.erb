@@ -1,2 +1,46 @@
-<h1>Hello World</h1>
-<p>See Me in views/static/index.html.erb</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NIFFTY-Compressor</title>
+    <link href="/css/application.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Libre+Barcode+39+Extended+Text|Space+Mono" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <div id='logo'> BITLY </div>
+            <div class="nav_bar"><ul>
+                <li><a href="about.erb">About</a></li>
+                <li><a href="user_sign_up.erb">Sign Up</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class=main_content>
+        <form action="/link_generate" method="post">
+            Enter URL:
+            <input type="text" name="long_url">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="table">
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Original URL</th>
+                <th>New URl</th>
+                <th>Click Count</th>
+            </tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+        </table>
+    </div>
+    <footer class="footer"> Happy go lucy rabbit foot</footer>
+    </div>
+</body>
+</html>
+
+
+
+
